@@ -1,0 +1,9 @@
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\bin\Debug\Vaja2.exe.config
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\bin\Debug\Vaja2.exe
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\bin\Debug\Vaja2.pdb
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\obj\Debug\Vaja2.csprojAssemblyReference.cache
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\obj\Debug\Vaja2.Form1.resources
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\obj\Debug\Vaja2.Properties.Resources.resources
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\obj\Debug\Vaja2.csproj.GenerateResource.cache
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\obj\Debug\Vaja2.exe
+C:\Users\Rok-Home\Desktop\UI\Vaja 2\Vaja2\Vaja2\obj\Debug\Vaja2.pdb
