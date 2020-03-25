@@ -12,17 +12,85 @@ namespace Vaja2
 {
     public partial class Form1 : Form
     {
+        string test;
+        int MAX_globina = 1;
+
+        private void radioButton1_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton1.Text.ToString();
+            test = radioButton1.Text.ToString();
+            MAX_globina = 1;
+        }
+        private void radioButton2_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton2.Text.ToString();
+            test = radioButton2.Text.ToString();
+            MAX_globina = 2;
+        }
+        private void radioButton3_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton3.Text.ToString();
+            test = radioButton3.Text.ToString();
+            MAX_globina = 3;
+        }
+        private void radioButton4_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton4.Text.ToString();
+            test = radioButton4.Text.ToString();
+            MAX_globina = 4;
+        }
+
+        private void radioButton5_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton5.Text.ToString();
+            test = radioButton5.Text.ToString();
+            MAX_globina = 5;
+        }
+
+        private void radioButton6_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton6.Text.ToString();
+            test = radioButton6.Text.ToString();
+            MAX_globina = 6;
+        }
+        private void radioButton7_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton7.Text.ToString();
+            test = radioButton7.Text.ToString();
+            MAX_globina = 7;
+        }
+
+        private void radioButton8_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton8.Text.ToString();
+            test = radioButton8.Text.ToString();
+            MAX_globina = 8;
+        }
+
+        private void radioButton9_Click(object sender, EventArgs e)
+        {
+            label3.Text = radioButton9.Text.ToString();
+            test = radioButton9.Text.ToString();
+            MAX_globina = 9;
+        }
+
         public enum Igralec
         {
             /// znaki za igralce
             X, O
         }
-        Igralec trenutniIgralec;
 
-        List<Button> gumbi; ///ustvarimo array gumbov
+        Igralec trenutniIgralec;
+        //int globina = 
+        //string test = label3.Text.ToString();
+   
+
+
+
+    List<Button> gumbi; ///ustvarimo array gumbov
         Random rand = new Random();
-        int Igralec_Zmage = 0;
-        int AI_Zmage = 0;
+        int Igralec_Zmage = 0; // stevilo zmag
+        int AI_Zmage = 0; // stevilo zmag
         public Form1()
         {
             InitializeComponent();
@@ -76,10 +144,10 @@ namespace Vaja2
             {
                 // igralec je zmagal
                 AImoves.Stop(); /// MORES POL ZBRISAT
-                MessageBox.Show("Zmaga igralca");
-                Igralec_Zmage++;
-                label1.Text = "Igralec - " + Igralec_Zmage;
-                resetGame();
+                MessageBox.Show("Zmaga igralca"); /// napisemo kdo je zmagal
+                Igralec_Zmage++; /// povecamo stevilo zmag
+                label1.Text = "Igralec - " + Igralec_Zmage; // spremenimo napis
+                resetGame(); ///  znova zazenemo igro
             }
             else if (button1.Text == "O" && button2.Text == "O" && button3.Text == "O"
                 || button4.Text == "O" && button5.Text == "O" && button6.Text == "O"
@@ -99,6 +167,9 @@ namespace Vaja2
             }
         }
 
+        /**
+            SAMO NAREJENA ZA TEMP IGRANJE 
+        */
         private void AImove(object sender, EventArgs e)
         {
             if (gumbi.Count > 0) {
@@ -112,5 +183,9 @@ namespace Vaja2
                 AImoves.Stop();
             }
         }
+
+
+        
+
     }
 }
